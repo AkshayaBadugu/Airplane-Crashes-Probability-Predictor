@@ -1,13 +1,5 @@
 ✈️ Airplane Crash Probability Predictor
-A Streamlit web application that predicts the probability of an airplane crash based on aircraft model, airline operator, and year. This project is built using Machine Learning classifiers (Decision Tree, Random Forest, XGBoost) and aims to provide insights using historical aviation accident data.
-
-
-
-
-
-🚀 Demo
-Run locally: http://localhost:8501
-(After executing streamlit run app.py)
+A Model that predicts the probability of an airplane crash based on aircraft model, airline operator, and year. This project is built using Machine Learning classifiers (Decision Tree, Random Forest, XGBoost) and aims to provide insights using historical aviation accident data.
 
 
 
@@ -32,7 +24,6 @@ crash (Target: 1 for crash, 0 for no crash)
 
 
 🧠 Features
-Interactive UI built using Streamlit
 
 Predicts crash probability using XGBoost model
 
@@ -71,28 +62,7 @@ Ensure that your cleaned dataset is saved as:
 Copy
 Edit
 icao_crash_dataset.csv
-Place it in the same directory as app.py.
 
-
-
-
-
-▶️ Running the App
-From your terminal or PowerShell:
-
-bash
-Copy
-Edit
-cd "C:\Users\yourname\Documents\PlaneCrash"
-streamlit run app.py
-Visit: http://localhost:8501
-
-
-
-
-
-📷 App Preview
-(Insert screenshot here: screenshot.png)
 
 
 
